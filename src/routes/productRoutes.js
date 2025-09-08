@@ -16,7 +16,7 @@ router.get('/:id', productController.getProductById);
 router.post('/', productController.createProduct);
 
 //4 rota para atualizar um produto
-router.put('/:id', productController.updateProduct);
+router.patch('/:id', productController.updateProduct);
 
 //5 rota para deletar um produto
 router.delete('/:id', productController.deleteProduct);

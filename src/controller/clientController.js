@@ -34,8 +34,6 @@ const updateClient = (req, res) => {
  
 };
 
- 
-
 //metodo para deletar um cliente
 const deleteClient = (req, res) => {
     // Pegar o ID da requisição
